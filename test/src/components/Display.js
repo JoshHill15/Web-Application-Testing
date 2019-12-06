@@ -42,7 +42,7 @@ function Display() {
     }
     return (
       <div>
-          <p>Balls: {balls}</p>
+          <p data-testid = "display">Balls: {balls}</p>
           <p>Strikes: {strikes}</p>
           <p>Fouls: {fouls}</p>
           <p>Hits: {hits}</p>
